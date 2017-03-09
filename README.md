@@ -7,7 +7,7 @@ the following criteria:
 2.       This is meant to be simple, so no need for an HTML or GUI interface.
 3.       Make sure that you provide a demonstration of your object-oriented chops.
 
-There are 3 possible iterations:
+There are 2 possible iterations:
 
 1.       The app is a command-line app that runs 1 time. It reads the URL from a local config file and writes the size of the 
          file (PDF, image, HTML, etc.) to an output file.
