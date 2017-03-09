@@ -1,6 +1,6 @@
 # assessment
 
-I would like you to write a simple Java CLI that will report the download size of a given URL. Please make sure that you hit 
+Write a simple Java CLI that will report the download size of a given URL. Please make sure that you hit 
 the following criteria:
 
 1.       Please don't use any 3rd-party code that performs the entire task.
