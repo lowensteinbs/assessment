@@ -1,5 +1,6 @@
 package com.assessment.utilities;
 
+import com.assessment.bl.Assessment;
 import com.assessment.bl.WriteFile;
 import com.assessment.dc.Constants;
 import com.assessment.dc.URLResponse;

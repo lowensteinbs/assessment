@@ -4,12 +4,9 @@ import com.assessment.bl.ReadFile;
 import com.assessment.bl.WriteFile;
 import com.assessment.dc.Constants;
 import com.assessment.dc.URLResponse;
-
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
-
 import java.io.File;
-
 import org.junit.Test;
 
 public class ReadWriteFileTest {
