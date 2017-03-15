@@ -1,1 +1,1 @@
-Size of http://www.google.com: 1000
+{"requests":2,"urlResponses":[{"url":"http://www.google.com","size":10258},{"url":"http://www.msn.com","size":45442}]}
