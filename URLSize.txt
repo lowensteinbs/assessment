@@ -1,1 +1,1 @@
-{"requests":2,"urlResponses":[{"url":"http://www.google.com","size":10258},{"url":"http://www.msn.com","size":45442}]}
+{"requests":2,"urlResponses":[{"url":"http://www.google.com","size":10257},{"url":"http://www.msn.com","size":45199}]}

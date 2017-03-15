@@ -1,7 +1,6 @@
 package com.assessment.utilities;
 
-import com.assessment.bl.AssessmentMultipleStrategy;
-import com.assessment.bl.AssessmentSingleStrategy;
+import com.assessment.bl.Assessment;
 import com.assessment.bl.IAssessmentStrategy;
 import com.assessment.bl.WriteFile;
 import com.assessment.dc.Constants;
@@ -12,14 +11,7 @@ public class AssessmentMain {
 	public static void main(String args[]) throws Exception {
 
         try {
-        	IAssessmentStrategy assessment = null;
-        	
-        	if (args.length > 0) {
-        		assessment = new AssessmentMultipleStrategy();
-        	}
-        	else {
-        		assessment = new AssessmentSingleStrategy();
-        	}
+        	IAssessmentStrategy assessment = Assessment.getAssessmentStrategy(args);
         	
         	URLResponse urlResponse[] = assessment.execute(args);
             urlResponse = assessment.getURLResponse(urlResponse);
